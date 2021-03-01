@@ -1,0 +1,33 @@
+a{
+  color:orange;
+  text-decoration:none;
+}
+h1 {
+  font-size:50px;
+  text-align:center;
+  margin:0;
+  padding:20px;
+}
+ol {
+border-right:1px solid black;
+width:80px;
+margin:0px;
+padding:20px;
+}
+body{
+margin:0;
+}
+#grid{
+border:1px solid black;
+  display:grid;
+  grid-template-columns: 150px 1fr;
+}
+@media(max-width:800px) {
+ol{
+  border-right:none;
+}
+#grid{
+  border:none;
+  display:block;
+}
+}
